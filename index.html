@@ -1,1 +1,56 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Alexander Tokos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body onload="hidePages(); displayAboutPage()">
+    <div class="header">
+        <h1 class="left">Alexander Tokos</h1>
+    </div>
+    <div class="navbar">
+        <a href="#" onclick="hidePages(); displayAboutPage()">About</a>
+        <a href="#" onclick="hidePages(); displayProjectsPage()">Projects</a>
+        <a href="#" onclick="hidePages(); displayContactPage()">Contact</a>
+    </div>
+    <div class="page" id="about">
+        <div class="row">
+            <div class="side">
+                <img src="img_headshot.jpeg">
+            </div>
+            <div class="main">    
+                <h2>About me</h2>
+                <p>Very descriptive description Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Mauris porta quis purus ut lobortis. Ut porttitor justo elit, vel fringilla est ullamcorper
+                    sit amet. Sed vehicula eros turpis, sed scelerisque tellus tincidunt in. Morbi eget felis
+                    sed nisl malesuada ultricies sed vel tellus. Duis nec ex commodo libero commodo eleifend et 
+                    rutrum velit. Donec finibus posuere dolor ac placerat. Vivamus dignissim pretium purus eget auctor. 
+                    Nunc fermentum pulvinar velit, id sagittis massa imperdiet et. Vestibulum ante ipsum primis in 
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Nam pulvinar posuere laoreet. Sed interdum 
+                    dolor nec tellus lacinia, nec interdum risus aliquet. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Duis elementum iaculis iaculis. Nulla at lacus erat. Cras id metus vitae purus 
+                    mattis semper non sed ligula. Duis aliquet nulla placerat arcu cursus, sit amet vulputate nisi 
+                    pretium.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="projects">
+            <h2>My projects</h2>
+    </div>
+
+    <div class="page" id="contact">
+            <h2>Contact me</h2>
+    </div>
+
+    <div class="footer">
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <p>Created by Alexander Tokos</p>
+    </div>
+</body>
+</html>
